@@ -1,0 +1,208 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+html { font-size: 16px; }
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fff;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* HEADER */
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background: #fde5a1;
+  padding: 2rem;
+  margin-bottom: 3rem;
+}
+.site-logo { width: 140px; }
+.header-text h1,
+.header-text h2 {
+  font-style: italic;
+  color: #005c41;
+  margin-bottom: 0.2rem;
+}
+.header-text h1 { font-weight: 400; font-size: 2.4rem; }
+.header-text h2 { font-weight: 600; font-size: 1.4rem; }
+
+/* ACESSIBILIDADE */
+.accessibility-icons {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+.accessibility-icons img { width: 120px; }
+
+/* INTRO + AUDIO */
+.sound-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+.sound-text img { width: 36px; }
+.sound-text p { max-width: 600px; font-style: italic; }
+
+/* BOTÃO DE LEITURA */
+.read-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #005c41;
+  transition: transform .1s;
+}
+.read-btn:hover { transform: scale(1.2); }
+
+/* QUEM FOI TARSILA */
+.about-tarsila {
+  padding: 2rem 1rem;
+  margin-bottom: 3rem;
+}
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.about-image img {
+  max-width: 300px;
+  border-radius: 4px;
+}
+.about-text {
+  max-width: 600px;
+  text-align: left;
+}
+.about-text h2 {
+  font-style: italic;
+  color: #005c41;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+/* GALERIA */
+.gallery-section {
+  text-align: center;
+  margin: 3rem 0;
+}
+.gallery-title {
+  font-style: italic;
+  color: #005c41;
+  font-size: 1.8rem;
+}
+
+/* OBRAS */
+.works-section {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+.work {
+  max-width: 450px;
+  text-align: left;
+}
+.work img {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+.work-caption {
+  font-style: italic;
+  color: #005c41;
+  margin-bottom: .5rem;
+}
+
+/* CONTEXTO HISTÓRICO */
+.context-section { margin: 3rem 0; }
+.context-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background: #fde5a1;
+  padding: 2rem;
+}
+.context-header img { max-width: 200px; }
+.context-header h2 {
+  font-style: italic;
+  color: #005c41;
+  font-size: 1.8rem;
+}
+.context-block {
+  background: #fde5a1;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  max-width: 800px;
+  border-radius: 16px;
+}
+.context-block p { font-style: italic; }
+
+/* BIOGRAFIA */
+.bio-section {
+  background: #dcc9a0;
+  padding: 2rem 1rem;
+  margin-bottom: 3rem;
+}
+.bio-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.bio-text {
+  max-width: 600px;
+  text-align: left;
+}
+.bio-text h2 {
+  font-style: italic;
+  color: #005c41;
+  margin-bottom: 1rem;
+}
+.bio-image img {
+  max-width: 300px;
+  border-radius: 4px;
+}
+
+/* FOOTER */
+.site-footer {
+  background: #005c41;
+  color: #fff;
+  padding: 2rem 1rem;
+  border-radius: 16px;
+  margin: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.footer-contacts div,
+.footer-social a,
+.footer-credit p {
+  display: flex;
+  align-items: center;
+  margin-bottom: .5rem;
+}
+.footer-contacts img,
+.footer-social img {
+  width: 24px;
+  margin-right: .5rem;
+}
+.footer-social a img {
+  width: 36px;
+  height: 36px;
+}
